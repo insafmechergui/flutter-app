@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
 var _questionIndex = 0;
 var _totalScore = 0;
 
-void _answerQuestion(int score) {
+   void _answerQuestion(int score) {
 
   _totalScore += score;
 
@@ -79,7 +79,7 @@ Widget build(BuildContext context) {
   return MaterialApp(
     home: Scaffold(
         appBar: AppBar(
-          title: Text('Welcome'),
+          title: Text("Welcome to the first Quiz \\^o^/"),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
